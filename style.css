@@ -1,0 +1,16 @@
+table{ width: 100%; /*Hace que la tabla ocupe todo el ancho de la pagina */ 
+    margin: 20px 0; /*Margenes de la tabla*/ 
+    }
+     body{ background-color: bisque; 
+    } 
+    th td{ 
+    padding: 10px; /*Rellano dentro de las celdas*/ 
+    text-align: left;/*Alinea el texto a la izquierda*/ 
+    border: 1px solid black; 
+    }
+    th{ 
+    background-color: burlywood; /*Fondo para el ancabezado*/ 
+    color: black; 
+    } 
+    tr:hover{ 
+    background-color: blanchedalmond; /*Cambia el fondo de las caldas al pasar el mouse*/
